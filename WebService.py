@@ -1,3 +1,5 @@
+#necessary imports
+
 # import numpy class
 import numpy as np
 # import panda class for handling data
@@ -18,13 +20,13 @@ from flask import request
 import sys
 
 import json
-
+#create a flask apps
 app = Flask(__name__)
 
 
 @app.route('/')
 def hello_world():
-    return app.send_static_file('index.html')
+    return app.send_static_file('index.html')#load in the index home page
 
 @app.route('/calculate/turbine/power', methods=['POST'])
 def parse_request():
