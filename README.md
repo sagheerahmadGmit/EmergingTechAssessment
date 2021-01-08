@@ -14,6 +14,8 @@ The aim of this project is to:
 ```
 
 <hr>
+# Part One
+***
 The program is currently Reading in the data using the panda class. It is taking in the link that was provided on MOodle and saving it into the powerProduction variable. The data being read in is from a csv file. A csv file is a basic text file. Csv is used for storing tabular data in text form, meaning the commas are used to seperate each column and newlines are used to seperate rows. Typically, the first row in a CSV file contains the names of the columns for the data. [1]
 
 The data is then printed out out using the head function. The head function is part of the panda library and is use dto return the n number of rows from the data, for example in this instance it is returning the first 5 lines of data.
