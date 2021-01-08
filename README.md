@@ -29,7 +29,7 @@ There is more research and information about this aspect of the project in the j
 
 # Part Two
 ***
-The second part of this project was to create a flask web service that could read in a speed variable and give a power output based on the predictions made by the model. To do this I created an index file which allows the user to input the speed. I went for a minimalistic look and used some css to make the page look nice.
+The second part of this project was to create a flask web service that could read in a speed variable and give a power output based on the predictions made by the model. To do this I created an index file which allows the user to input the speed. I went for a minimalistic look and used some css to make the page look nice. The page has 2 input boxes which are used for inputting the speed and the other for outputting the results. The results will not be shown unless the user presses the calculate button. 
 
 After creating the index page i started working in the python file that would read in the h5 file that we created in the jupyter notebook. After reading in the file. The model could make the predictions. I had a few errors with this part where the model could not send the data back to the user due to it being the wrong format. In order to fix this i used the flatten function to change the array from a 2d to a 1d array.
 
