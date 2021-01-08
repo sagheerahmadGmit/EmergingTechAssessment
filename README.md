@@ -13,9 +13,7 @@ The aim of this project is to:
     4. Standard items in a git repository such as a README.
 ```
 
-<hr>
 # Part One
-***
 The first part of the project was to create a jupyter notebook that reads in the data using the panda class. It is taking in the link that was provided on moodle and saving it into the powerProduction variable. The data being read in is from a csv file. A csv file is a basic text file. Csv is used for storing tabular data in text form, meaning the commas are used to seperate each column and newlines are used to seperate rows. Typically, the first row in a CSV file contains the names of the columns for the data. [1]
 
 The data is then being printed onto a graph. After outputting the data i created two models using keras to predict the power of the wind depending on the wind speed. The first model was not very accurate and had a big loss so i had to remake the model with a better accuracy and loss. 
@@ -29,7 +27,6 @@ The next step was to save the model into a h5 file so that it can be read into a
 There is more research and information about this aspect of the project in the jupyter notebook itself.
 
 
-<hr>
 # Part Two
 ***
 The second part of this project was to create a flask web service that could read in a speed variable and give a power output based on the predictions made by the model. To do this I created an index file which allows the user to input the speed. I went for a minimalistic look and used some css to make the page look nice.
@@ -46,7 +43,8 @@ We  created a docker image to run the project. The image was created using a Doc
 
 The docker also runs a requirements.txt file to make sure the user has all the necessary downloads to run the project and makes sure the environment is set up properly.
 
-#### How to run the web service
+# How to run the web service
+<hr>
 
 The project should be ran using docker for best performance.
 
@@ -82,3 +80,30 @@ $ set FLASK_APP=WebService.py
 $ python -m flask run
  * Running on http://127.0.0.1:5000/
  ```
+ 
+ # References
+ 
+[1] Docker Software  
+[https://en.wikipedia.org/wiki/Docker_(software)]  
+[2] Reading data using the panda library  
+[https://www.shanelynn.ie/python-pandas-read_csv-load-data-from-csv-files/ ]  
+[3] The describe function  
+[https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm#:~:text=The%20describe()%20function%20computes,pertaining%20to%20the%20DataFrame%20columns.&text=This%20function%20gives%20the%20mean,given%20summary%20about%20numeric%20columns.]   
+[4] Keras  
+[#https://keras.io/api/layers/core_layers/input/]  
+[#https://keras.io/guides/sequential_model/]  
+[#https://stackabuse.com/deep-learning-in-keras-building-a-deep-learning-model/]  
+[5] Machine Learning  
+[https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/]  
+[https://machinelearningmastery.com/how-to-make-classification-and-regression-predictions-for-deep-learning-models-in-keras/]
+[6]Keras and Fit Generator  
+[https://www.geeksforgeeks.org/keras-fit-and-keras-fit_generator/]
+<br>
+[7] Fetch Api
+[https://stackoverflow.com/questions/50046841/proper-way-to-make-api-fetch-post-with-async-await/50047047]  
+[https://stackoverflow.com/questions/39565706/post-request-with-fetch-api]  
+[https://stackoverflow.com/questions/29775797/fetch-post-json-data]  
+[8] Axios
+[https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/]
+[9] Map a 2D array onto a 1D array  
+[https://stackoverflow.com/questions/2151084/map-a-2d-array-onto-a-1d-array]  
