@@ -65,6 +65,12 @@ To run the image, we need to use the following commambd:
 docker run -d -p 5000:5000 web-service
 ```
 
+In order to stop the docker container or remove the docker container by doing the following:
+```
+docker kill [container id]
+docker rm [container id]
+```
+
 If you dont want to to use docker to run the app then you can run the app by using the following commands based on your operating system:
 
 Linux System:
