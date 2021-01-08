@@ -90,9 +90,9 @@ $ python -m flask run
 [3] The describe function  
 [https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm#:~:text=The%20describe()%20function%20computes,pertaining%20to%20the%20DataFrame%20columns.&text=This%20function%20gives%20the%20mean,given%20summary%20about%20numeric%20columns.]   
 [4] Keras  
-[#https://keras.io/api/layers/core_layers/input/]  
-[#https://keras.io/guides/sequential_model/]  
-[#https://stackabuse.com/deep-learning-in-keras-building-a-deep-learning-model/]  
+[https://keras.io/api/layers/core_layers/input/]  
+[https://keras.io/guides/sequential_model/]  
+[https://stackabuse.com/deep-learning-in-keras-building-a-deep-learning-model/]  
 [5] Machine Learning  
 [https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/]  
 [https://machinelearningmastery.com/how-to-make-classification-and-regression-predictions-for-deep-learning-models-in-keras/]
@@ -103,7 +103,7 @@ $ python -m flask run
 [https://stackoverflow.com/questions/50046841/proper-way-to-make-api-fetch-post-with-async-await/50047047]  
 [https://stackoverflow.com/questions/39565706/post-request-with-fetch-api]  
 [https://stackoverflow.com/questions/29775797/fetch-post-json-data]  
-[8] Axios
-[https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/]
+[8] Axios  
+[https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/]  
 [9] Map a 2D array onto a 1D array  
 [https://stackoverflow.com/questions/2151084/map-a-2d-array-onto-a-1d-array]  
